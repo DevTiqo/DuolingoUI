@@ -1,8 +1,8 @@
-import 'package:test1/src/components/button.dart';
-import 'package:test1/src/components/login_text_field.dart';
-import 'package:test1/src/firebase/api_response.dart';
-import 'package:test1/src/firebase/firebase_service.dart';
-import 'package:test1/src/home/main_screen/home.dart';
+import 'package:duolingo/src/components/button.dart';
+import 'package:duolingo/src/components/login_text_field.dart';
+import 'package:duolingo/src/firebase/api_response.dart';
+import 'package:duolingo/src/firebase/firebase_service.dart';
+import 'package:duolingo/src/home/main_screen/home.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -101,7 +101,8 @@ class _LoginPageState extends State<LoginPage> {
                     margin: const EdgeInsets.all(8),
                     child: const Text.rich(
                       TextSpan(
-                        text: "Ao entrar no test1, você concorda com os nossos",
+                        text:
+                            "Ao entrar no duolingo, você concorda com os nossos",
                         style: TextStyle(
                           fontSize: 18,
                           color: Color(0xFFb2b2b0),
