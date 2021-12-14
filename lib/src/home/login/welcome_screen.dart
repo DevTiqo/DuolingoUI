@@ -27,7 +27,8 @@ class WelcomeScreen extends StatelessWidget {
               SizedBox(
                 width: 280,
                 child: Text(
-                  "Aprenda idiomas de graça. Agora e sempre.",
+                  "Learn Simple and easy",
+                  //TO-DO Change font soon
                   style: TextStyle(
                     fontSize: 26,
                     color: Colors.grey.shade400,
