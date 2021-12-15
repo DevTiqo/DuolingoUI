@@ -40,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
                   heightFactor: 0.75,
                 ),
               ),
-              _button("COMEÇAR AGORA",
+              _button("Commence",
                   color: Colors.lightGreen,
                   onPressed: () {},
                   colorText: Colors.white),
