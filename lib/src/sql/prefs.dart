@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Prefs {
-
   static Future<bool> getBool(String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
 
@@ -39,3 +38,5 @@ class Prefs {
     await prefs.setString(key, s);
   }
 }
+
+//Change SQL to HIVE DB
