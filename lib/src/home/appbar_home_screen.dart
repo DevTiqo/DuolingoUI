@@ -28,9 +28,6 @@ class AppBarHomeScreen extends StatelessWidget {
                   color: Colors.grey,
                   fontSize: 17),
             ),
-            const SizedBox(
-              width: 30,
-            ),
             IconButton(
               icon: Image.asset(
                 "assets/images/appBar/navbar_fire.png",
@@ -47,7 +44,7 @@ class AppBarHomeScreen extends StatelessWidget {
               width: 40,
             ),
             IconButton(
-              padding: const EdgeInsets.only(left: 16),
+              padding: const EdgeInsets.only(left: 12),
               icon: Image.asset(
                 "assets/images/appBar/navbar_diamont.png",
                 height: 29,
