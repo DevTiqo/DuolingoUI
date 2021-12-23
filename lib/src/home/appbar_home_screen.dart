@@ -52,12 +52,12 @@ class AppBarHomeScreen extends StatelessWidget {
               onPressed: () {},
             ),
             Text(
-              "130",
+              "1400",
               style: TextStyle(
                   fontWeight: FontWeight.bold, color: Colors.red, fontSize: 17),
             ),
             const SizedBox(
-              width: 20,
+              width: 15,
             ),
           ],
         ),
