@@ -7,8 +7,16 @@ class Ranking extends StatefulWidget {
 
 class _RankingState extends State<Ranking> {
   @override
-  Widget build(BuildContext context) =>
-    Scaffold(
-      body: Container(),
-    );
+  Widget build(BuildContext context) => Scaffold(
+        body: Container(
+          child: Column(
+            children: [
+              Text('Hello WOrld New Updates coming soon'),
+              Text('We will soon blow '),
+              Text('Start up launching soon'),
+              Text('InshaAllah1'),
+            ],
+          ),
+        ),
+      );
 }
