@@ -24,7 +24,7 @@ class Button extends StatelessWidget {
           child: showProgress
               ? Center(
                   child: CircularProgressIndicator(
-                    valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                    valueColor: AlwaysStoppedAnimation<Color>(Colors.blue),
                   ),
                 )
               : Text(
