@@ -11,14 +11,14 @@ class CircleAvatarIndicator extends StatelessWidget {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 120,
+          height: 150,
           child: Stack(
             alignment: Alignment.center,
             children: <Widget>[
               Center(
                 child: Container(
-                  width: 115,
-                  height: 115,
+                  width: 150,
+                  height: 150,
                   child: const CircularProgressIndicator(
                     strokeWidth: 13,
                     value: 1,
