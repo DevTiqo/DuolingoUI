@@ -30,7 +30,7 @@ class Button extends StatelessWidget {
               : Text(
                   text!,
                   style: TextStyle(
-                    color: Colors.grey,
+                    color: Colors.yellow,
                     fontSize: 20,
                   ),
                 ),
